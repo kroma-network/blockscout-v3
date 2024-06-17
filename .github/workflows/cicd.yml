@@ -73,7 +73,7 @@ jobs:
             CACHE_ADDRESS_WITH_BALANCES_UPDATE_INTERVAL=
             BLOCKSCOUT_VERSION=v6.5.0-beta
             RELEASE_VERSION=6.5.0
-
+            CHAIN_TYPE=optimism
   cd:
     needs: ci
     environment: ${{ github.event.inputs.environment }}
