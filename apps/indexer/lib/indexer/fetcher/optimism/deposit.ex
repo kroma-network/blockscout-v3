@@ -448,7 +448,6 @@ defmodule Indexer.Fetcher.Optimism.Deposit do
           msg_value |> String.replace_leading(<<0>>, <<>>),
           value |> String.replace_leading(<<0>>, <<>>),
           gas_limit |> String.replace_leading(<<0>>, <<>>),
-          is_creation |> String.replace_leading(<<0>>, <<>>),
           data
         ],
         encoding: :hex
